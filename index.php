@@ -24,7 +24,7 @@ session_start();
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" height="40" alt="">
+                <img src="uploads/Apluz.png" height="40" alt="Apluz">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -156,7 +156,7 @@ session_start();
                     <div class="item ">
                         <a href="item_select.php?id=<?php echo $product_id?>" class="card card-hover shadow text-decoration-none">
                         <div class="mx-auto mt-3">
-                            <?php echo '<img class="img-fluid rounded" style="background-size:cover; height: 1500px;" src="data:image/jpeg;base64,'.base64_encode($product_image).'"
+                            <?php echo '<img class="img-fluid rounded" style="background-size:cover; height: 200px;" src="data:image/jpeg;base64,' . base64_encode($product_image).'"
                             alt="image"/>';?>
                             </div>
                             <div class="card-body text-dark text-center">

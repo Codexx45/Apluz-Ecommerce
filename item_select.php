@@ -35,7 +35,7 @@
     <body class="d-flex flex-column min-vh-100">
       <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="navbar">
           <div class="container">
-              <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" style="height: 40px;">
+             <img src="uploads/Apluz.png" height="40" alt="Apluz">
               <button
                   class="navbar-toggler"
                   type="button"

@@ -39,7 +39,7 @@ $_SESSION['user_id'] = $user_id;
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" height="40" alt="">
+                <img src="../uploads/Apluz.png" height="40" alt="Apluz">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>

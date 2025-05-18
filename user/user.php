@@ -39,100 +39,10 @@ $_SESSION['user_id'] = $user_id;
 </head>
 
 <body class="d-flex flex-column min-vh-100 layout-top-nav">
-    <!-- <nav class="main-header navbar navbar-expand navbar-light bg-light navbar-white shadow">
-        <div class="container-xl">
-            <a href="user.php?username=<?php echo $username ?>" class="navbar-brand">
-                <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" alt="Apluz Logo" style="height: 40px;">
-                <span class="brand-text font-weight-light">Apluz</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    </li>
-                    <li class="nav-item active bg-info d-none d-sm-inline-block">
-                        <a href="user.php?username=<?php echo $username ?>" class="nav-link active rounded">Home</a>
-                    </li>
-                    <li class="nav-item d-none d-sm-inline-block">
-                        <a href="orders.php?username=<?php echo $username ?>" class="nav-link rounded">My Orders</a>
-                    </li>
-                    <div class="nav-item d-none d-sm-inline-block">
-                        <input class="form-control form-control-navbar" list="datalistOptions" id="exampleDataList" placeholder="Search Item">
-                        <datalist id="datalistOptions"></datalist>
-                    </div>
-                    <script>
-                        $(document).ready(function() {
-                            $('#exampleDataList').on('input', function() {
-                                var searchTerm = $(this).val();
-                                $.ajax({
-                                url: '../backend/search.php',
-                                method: 'POST',
-                                data: { search: searchTerm },
-                                dataType: 'json',
-                                success: function(data) {
-                                    var options = '';
-                                    $.each(data, function(index, value) {
-                                        options += '<option value="' + value.product_name + '" data-id="' + value.product_id + '">';
-
-                                    });
-                                    $('#datalistOptions').html(options);
-
-                                    var selectedOption = null;
-                                    
-                                    // add change event listener to input element
-                                    $('#exampleDataList').change(function() {
-                                    selectedOption = $('#datalistOptions option[value="' + $(this).val() + '"]');
-                                    });
-                                    
-                                    // add click event listener to options
-                                    $('#datalistOptions option').click(function() {
-                                        selectedOption = $(this);
-                                    });
-
-                                    $('#exampleDataList').keyup(function() {
-                                    if (selectedOption) {
-                                        var productId = selectedOption.data('id');
-                                        console.log(productId);
-                                        window.location.href = 'item_select.php?username=<?php echo $username; ?>&num=<?php echo $user_id ?>&id=' + productId;
-                                    }
-                                    });
-                                }
-                                });
-                            });
-                        });
-                    </script>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#cart_modal" id="cart_icon_modal">
-                            <i class="fas fa-cart-shopping"></i>
-                            <span class="badge bg-danger navbar-badge" id="cart_icon"></span>
-                        </a>
-                    </li>
-                    <div class="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-circle-user"></i>
-                        </a>
-
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                            <li><a class="dropdown-item" href="profile.php?username=<?php echo $username ?>"><i class="fas fa-user me-2"></i> My Account</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#"><i class="fas fa-gear me-2"></i> Settings</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#" id="logout"><i class="fas fa-arrow-right-from-bracket me-2"></i> Logout</a></li>
-                        </ul>
-                    </div>
-
-                </ul>
-            </div>
-        </div>
-    </nav> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" id="navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" height="40" alt="">
+                <img src="../uploads/Apluz.png" height="40" alt="Apluz">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
