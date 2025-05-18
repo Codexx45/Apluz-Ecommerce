@@ -17,7 +17,7 @@
     <nav class="main-header navbar navbar-expand navbar-light bg-light navbar-white shadow">
         <div class="container">
             <a href="../index.php" class="navbar-brand">
-                <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" alt="Apluz Logo" style="height: 40px;">
+                <img src="../uploads/Apluz.png" alt="Apluz Logo" style="height: 40px;">
                 <span class="brand-text font-weight-light">Apluz</span>
             </a>
             <!-- Left navbar links -->

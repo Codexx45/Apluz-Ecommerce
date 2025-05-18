@@ -57,7 +57,7 @@ require_once("../backend/database.php");
     <aside class="main-sidebar sidebar-dark-primary elevation-3" data-sidebarbg="skin3">
       <!-- Brand Logo -->
       <a href="dashboard.php" class="brand-link">
-        <img src="http://drive.google.com/uc?export=view&id=1DHTMZ51-z7K5uwHlGVyXMLTX2czK8v3c" alt="AdminLTE Logo" class="brand-image img-circle elevation-2" style="opacity: .7">
+        <img src="../uploads/avatar-1.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-2" style="opacity: .7">
         <span class="brand-text font-weight-light">Apluz</span>
       </a>
 
