@@ -1,9 +1,11 @@
 **Apluz **Electronics Inventory & Sales Management System****
 
 **Welcome to the Apluz Electronics Inventory and Sales Management System!**
+
 This web application is designed to help manage products, suppliers, customers, orders, inventory, and sales for an electronics retail and service business.
 
 **Features**
+
 Admin Dashboard: Manage products, categories, suppliers, customers, orders, sales, and inventory.
 
 User Portal: Browse products by category, manage cart, place orders, view order history, and profile management.
